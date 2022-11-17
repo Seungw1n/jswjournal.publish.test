@@ -1,0 +1,162 @@
+/* @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css); */
+
+
+
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    src: url("spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css");
+}
+
+@font-face {
+    font-family: 'BareunBatang';
+    font-style: normal;
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kpa/BareunBatang/BareunBatangOTFM.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: '04b08';
+    src: url('https://fonts.cdnfonts.com/css/04b08');
+  }
+
+body {
+    cursor: none;
+}
+
+.cursor_item {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: white;
+    stroke-width: 10px;
+    border-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+div {
+    width: 1100px;
+    overflow-y: auto;
+    white-space: normal;
+    font-size: large;
+}
+
+body{
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.box{
+    -ms-overflow-style: none;
+}
+.box::-webkit-scrollbar{
+    display:none;
+}
+
+div.parent {
+    height: 1080px;
+    overflow-y: hidden;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+#item-bg {
+    width:100vw;
+    background-image: url('./hair/day_1_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    top: 0;
+}
+
+div.title {
+    flex: 1;
+    z-index: 100;
+    width: 500px;
+    height: 1080px;
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+div.content {
+    flex: 1;
+    z-index: 20;
+    position: absolute;
+    padding-left: 300px;
+    width: 500px;
+    height: 8294px;
+    overflow-y: scroll;
+    line-height: 26px;
+    font-family: 'BareunBatang', serif;
+    font-weight: 500;
+    font-size: 18px;
+
+    -webkit-animation-name: move;
+    -webkit-animation-duration: 240s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: reverse;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes move {
+    0% {
+      margin-top: -8294px;
+    }
+    100% {
+      margin-bottom: 8294px;
+    }
+  }
+
+div.link {
+    flex: 1;
+    z-index: 30;
+    position: absolute;
+    padding-left: 600px;
+    width: 500px;
+    max-width: 500px;
+    height: 1080px;
+    line-height: 26px;
+    /* font-family: 'Silkscreen', cursive; */
+    font-family: 'basis33', sans-serif;
+    font-size: 24px;
+}
+
+table {
+    border-spacing: 0px;
+    border-style: none;
+    padding: 0px;
+}
+
+.tg {
+    border-collapse:separate;
+    border-spacing:0 0px;
+    text-align:left;
+    vertical-align:bottom;
+}
+
+td {
+    text-align: left;
+}
+
+td.tg-day {
+    white-space: nowrap;
+}
+
+td.tg-weather {
+    width: auto;
+    white-space: nowrap;
+}
+
+td.tg-title {
+    width: 1000px;
+}
+
+tr:hover {
+    width: 100%;
+    background-color: #eeeeee;
+}

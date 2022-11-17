@@ -1,0 +1,2449 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+        <link href="//db.onlinewebfonts.com/c/d08bafd725a4cfc309efb5a88e0b63a5?family=basis33" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <link rel="stylesheet" href="test.css">
+        <script src="test.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        
+    
+        <!--
+            <div>
+                <button onclick="closeTabClick()">새창 닫기</button>
+            </div>
+        -->
+        
+
+        <div class="cursor_item"></div>
+        <div class="parent" onclick="closeTabClick()" id="item-bg">
+            <div class="title">
+                <table class="tg">
+                    <tbody>
+                        <tr>
+                            <td class="tg-date">2019.03.24.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-title">군인들은 왜 자기 경력 얘기를 많이 할까. </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.03.25.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-title">찌질 </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.03.26.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-title">그럴 수 있지 </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.03.27.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-title">의심 </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.03.28.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-title">나만 짬찌야 </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.03.29.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-title">길고양이 </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.04.01.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-title">적당히 해 </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.04.05.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-title">경주마 </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.04.07.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-title">다 해버려 줄게 </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.04.08.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-title">어떻게 사람한테 이런 기분을 들게 하냐 </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.04.11.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-title">대화가 필요해 </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.04.15.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-title">디스크 팡팡</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.04.19.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-title">나</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.04.22.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-title">가만히 있지 말고</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.04.23.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-title">기능: 주워듣기</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.04.26.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-title">로봇인권변호사</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.05.01.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-title">스토리 인플레이션</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.05.05.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-title">안할거면 안했으면 </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.05.07.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-title">의미 있는 게 의미 없는 것. 의미 없는 게 의미 있는 것.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.05.09.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-title">이건 마치</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.05.13.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-title">죽을 준비</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.05.14.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-title">아름답지 않은 것에도 아름다움이 있다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.05.15.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-title">눈에 흙이 들어가도</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.05.22.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-title">흩날리는 하얀 나비</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.05.25.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-title">고요한 함성</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.06.03.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-title">최희준스럽다 = 사과맛 썬업을 세 개 먹고 한 개 챙긴다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.06.08.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-title">그럴만 하니까 그렇겠지</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.06.09.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-title">나를 약하게 만드는 것들</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.06.10.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-title">닮는다는 것</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.06.14.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-title">왕건이 밑에 대왕건이</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.06.19.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-title">아주 안타까운 일이 일어나고 말았어요. </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.06.20.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-title">소유</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.06.24.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-title">도장깨기</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.06.26.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-title">나 한번만</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.06.28.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-title">이 5는 2 더하기 3이야.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.06.30.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-title">눈이 침침한 게 생각을 더 하라는 거 같아.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.07.01.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-title">아기는 왜 약하게 태어날까</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.07.03.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-title">착각을 평생 하면?</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.07.10.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-title">I’m fine </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.07.14.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-title">곧 휴가니까 봐준다. </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.07.16.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-title">비극 </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.07.18.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-title">One for all, all for one</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.07.27.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-title">고생을 사서 뭘 팔까</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.07.29.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-title">직독직해</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.08.02.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-title">환호 속에서, 비난 속에서</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.08.04.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-title">하나 둘 삼</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.08.06.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-title">사람 사는 곳</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.08.07.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-title">출가외인</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.08.08.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-title">언제 가?</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.08.11.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-title">낯선 사람에게서</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.08.23.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-title">어떡하려고 그래 </td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.09.02.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-title">다얀</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.09.15.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-title">지그시 읽는다</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.09.19.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-title">못하고 싶지 않다</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.09.30.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-title">호두까기 인형</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.10.04.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-title">생활형</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.10.06.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-title">막상 눈 앞에 닥쳤을 때</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.10.11.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-title">전력을 다해서</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.10.15.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-title">그럼에도 거리낌 없이</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.10.19.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-title">가야할 때를 알고 가는 것</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.10.20.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-title">To infinity, and beyond.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.10.21.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-title">도토리</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.10.23.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-title">평범함 속의 특별함</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.10.24.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-title">라벨라</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.10.27.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-title">결국 사람들한테 사랑받지 못하면 살아남지 못하는 거야.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.10.28.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-title">Scale-up</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.11.03.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-title">은둔고수</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.11.04.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-title">강약중강약</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.11.16.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-title">자연의 법칙</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.11.19.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-title">비장의 무기</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.11.26.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-title">유행가</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.12.03.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-title">의도와 우연</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.12.15.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-title">혓바닥이 입천장을 세 발자국 걸어가 앞니를 툭 건드린다. 롤-리-타.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.12.16.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-title">이 침묵이 은유의 과정을 거쳐 시가 될까.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.12.19.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-title">24시간이 모자라</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2019.12.31.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-title">마지막이 반가운 것들.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.01.01.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-title">의미가 있다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.01.02.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-title">새해 복은 누가 주는거냐</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="tg">
+                    <tbody>
+                        <tr>
+                            <td class="tg-date">2020.01.08.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">꽤맑음</td>
+                            <td class="tg-title">허이!</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.01.15.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">친절한 개그는 재미가 없다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.01.17.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">바깥 세상이 궁금해!</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.01.22.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">매는 먼저 열매는 나중에</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.01.23.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">이별하는 슬픔은 사랑하는 나의 마음 그리고 너무나 슬퍼</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.01.25.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">세상이 미쳐돌아가는구나</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.01.27.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">거짓말을 잘 하는 법은 평소에 거짓말을 안하는 것.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.01.30.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">꿈을 꿨으니 갚아야지</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.01.31.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">흐림</td>
+                            <td class="tg-title">정승원은 하루에 얼마나 많은 일을 할 수 있을까?</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.02.06.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">대체로맑음</td>
+                            <td class="tg-title">별이 빛나는 밤에</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.02.18.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">인생 힘들게 살기</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.02.19.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">구름속햇빛두줄기</td>
+                            <td class="tg-title"></td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.02.26.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">흐림</td>
+                            <td class="tg-title">거국적으로</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.02.28.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">흐림</td>
+                            <td class="tg-title">레트로 퓨처리즘</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.03.04.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">우린 서로 미워할 이유가 없다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.03.10.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather"></td>
+                            <td class="tg-title">주적은 간부</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.03.15.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">산 채로 잡아먹히는 느낌</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.03.18.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">열정은 소모품</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.03.22.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">분대장 지휘서신 제 3-1호</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.03.26.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">흐림</td>
+                            <td class="tg-title">욕망처럼 보이던 게 내가 기대고 싶은 곳이란 걸 알았을 때</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.03.27.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">죄 짖다</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.04.01.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">언제나 불안하다는 것은 변화한다는 것</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.04.12.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">대의</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.04.14.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">나를 도와줘야 할 사람이라고 생각해라.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.04.17.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">선의의 옹호자</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.04.18.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">걸어들어가기</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.04.22.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">태풍주의보</td>
+                            <td class="tg-title">자유의 날개</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.04.23.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">비온뒤햇빛</td>
+                            <td class="tg-title">아우라</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.04.27.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">받아줘</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.05.06.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">바람을 여는 창문</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.05.07.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">두 눈 똑바로 떠라!</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.05.08.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">흐림</td>
+                            <td class="tg-title">마음이 자신을 속인다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.05.11.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">매우흐림</td>
+                            <td class="tg-title">반짝</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.05.13.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">맑고구름많음</td>
+                            <td class="tg-title">유종의 미</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.05.21.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather"></td>
+                            <td class="tg-title">나를 기다린다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.05.23.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather"></td>
+                            <td class="tg-title">파동의 아름다운 여백</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.06.01.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather"></td>
+                            <td class="tg-title">짬인식교육</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.06.12.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">울긋불긋</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.06.18.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">엉덩어리 옹기종기 엉거주춤</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.06.20.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather"></td>
+                            <td class="tg-title">좋은 게 좋은 거</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.07.03.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">껄떡거렸다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.07.09.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">맑은하늘에날벼락</td>
+                            <td class="tg-title">웅성웅성</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.07.15.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">흐림</td>
+                            <td class="tg-title">물 흐리는 짭조쿠</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.07.21.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">우직하게</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.07.24.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">복귀계획 없는 출타계획서</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.07.25.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">전역 - 탈출</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.07.27.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">이별이 싫다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.08.13.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">할 수 있을 때</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.08.20.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">칭찬합시다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.08.24.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">전술이 없는 게 전술</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.08.26.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">순정만화</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.09.08.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">평범하게 살기   싶다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.09.19.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">줄건 줘.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.09.24.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">매일매일우리기분에따라이름이정해지는밴드</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.10.02.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">얼라리</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.10.03.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">청춘예찬</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.10.05.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">미루는 것은 특권</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.10.17.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">파도를 견디는 모래성</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.10.31.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">내가 어떤 짓을 해도</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.11.06.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">지구에서 온 외계인</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.11.07.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">기특하네.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.11.08.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">가슴 쉬도록</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.11.10.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">흐린편</td>
+                            <td class="tg-title">인간적으로</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.11.19.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">성지순례 왔습니다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.12.06.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">사랑할 준비</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.12.20.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">잘할 걸</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.12.21.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">돈으로 사겠어.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.12.27.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">세레나데</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2020.12.28.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">흐림</td>
+                            <td class="tg-title">블랙 패러디</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.01.03.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">흐림</td>
+                            <td class="tg-title">클래식하고 모던한</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.01.11.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">아무것도 안해도 되고싶다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.01.15.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">흐림</td>
+                            <td class="tg-title">아름다운 이별</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.01.20.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">건실</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.01.22.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">환경이 사람을 만든다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.01.31.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">심금을 울리는</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.02.06.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">욕망의 상상</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.02.10.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">생존과 번식</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.02.20.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">근사한</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.03.02.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">이게 남자의 NP이다!</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.03.07.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑긴함</td>
+                            <td class="tg-title">치마만 아니면</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.03.14.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">상상구현</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.03.24.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">동물원</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.04.13.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">흐린편</td>
+                            <td class="tg-title">무한동력</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.04.17.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">가슴 절절하게</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.04.21.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">좋은 하루가 될 거에요.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.04.29.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">네가 잠들 때</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.05.10.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">결</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.05.11.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">그런 거 같다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.05.14.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">기억해줘...</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.05.17.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">For you like you</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.05.28.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">세컨드 찬스</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.05.29.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">어떤 삶을 살았을까?</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.05.30.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">싹긁먹</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.06.02.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">흐림</td>
+                            <td class="tg-title">말하지 않아도 되면 말을 안하는게</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.06.04.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">흐린편</td>
+                            <td class="tg-title">뒤돌아보지 말고 뛰어라.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.06.12.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">기술이 완성되면 예술이 시작된다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.06.28.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">흐림</td>
+                            <td class="tg-title">태평성대</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.07.07.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">역사가 조직</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.07.11.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">울지 않아</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.07.18.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">살아지다</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.07.24.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">여름 캐롤</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.07.28.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">이걸 이렇게 하고 이렇게 한 다음에 이렇게 하면...</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.09.02.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">Go Giants</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.09.03.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">The world Best</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.09.10.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">Do Race!</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.09.13.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">포기하는 삶</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.09.15.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">귀담아</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.09.16.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">시립대디자인멤버십</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.09.17.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">영원하길 바라.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.09.21.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">미세먼지매우나쁨</td>
+                            <td class="tg-title"></td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.09.22.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">미세먼지매우나쁨</td>
+                            <td class="tg-title">날씨</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.09.25.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">호우</td>
+                            <td class="tg-title">백지</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.09.27.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">안개많음</td>
+                            <td class="tg-title"></td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.09.30.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">습도다소높음</td>
+                            <td class="tg-title">낙서</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.10.04.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">부슬비</td>
+                            <td class="tg-title">반항심</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.10.05.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">누가 그랬어</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.10.08.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">무지개</td>
+                            <td class="tg-title">후회하게 될거야</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.10.09.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">빈틈</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.10.10.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">그대 눈동자에 건배</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.10.12.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">화창</td>
+                            <td class="tg-title">내 친구랑 내 친구랑 결혼한대.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.10.14.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">무지개</td>
+                            <td class="tg-title">I’m hungry</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.10.17.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">그대</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.10.18.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">구름많음</td>
+                            <td class="tg-title">집에서 집으로</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.10.19.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">구름조금</td>
+                            <td class="tg-title">내가 볼 수 없는 곳</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.10.21.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">구름</td>
+                            <td class="tg-title">바람과 달리</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.10.22.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">주인공</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.10.29.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">웃어주세요</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.11.01.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">태풍</td>
+                            <td class="tg-title"></td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.11.03.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">강풍</td>
+                            <td class="tg-title"></td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.11.04.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">친해지길 바라.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.11.14.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">마지 쿠소</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.11.18.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">모든 미래는 과거가 되거나 오지 않거나. 예외는 없다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.11.21.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">미끼</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.11.22.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">New problem</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.11.23.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">내 프란</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.12.02.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">오히려 좋아</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.12.03.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">CooKing</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.12.05.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">Duet in SF</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.12.10.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">아주 제대로</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.12.13.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">낮잠에 악몽</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.12.15.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">산사태</td>
+                            <td class="tg-title">평소에</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.12.17.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">Seize the day</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.12.18.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">함박눈</td>
+                            <td class="tg-title">유머학</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.12.20.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">가랑눈</td>
+                            <td class="tg-title">무심</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.12.24.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">경력있는 신입, 연륜있는 애</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.12.27.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">산들바람</td>
+                            <td class="tg-title">넓고 얕은</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.12.28.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">뒤바람</td>
+                            <td class="tg-title"></td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2021.12.31.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">굿</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.01.01.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">모다깃비</td>
+                            <td class="tg-title">니가 해봐.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.01.06.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">클래식</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.01.09.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">국뽕</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.01.12.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">의도적으로 배제</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.01.13.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">주목받지 못하는 곳</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.01.14.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">우박</td>
+                            <td class="tg-title">좌충우돌 우당탕탕</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.01.15.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">내 추억이야</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.01.16.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">빌드업</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.01.17.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">먹구름</td>
+                            <td class="tg-title">백지</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.01.19.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">정답인 것 같다는 함정</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.01.20.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">가뭄</td>
+                            <td class="tg-title">이상을 덜어내는 연습</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.01.21.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">이슬비</td>
+                            <td class="tg-title">실패를 실패로</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.01.23.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">백야</td>
+                            <td class="tg-title">이런 기분</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.01.25.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">나다운 게 뭔데</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.01.28.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">천방지축 왁자지껄</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.02.01.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">설눈</td>
+                            <td class="tg-title">한에 왔다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.02.02.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">뭉게구름</td>
+                            <td class="tg-title">죽고 사는 문제</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.02.03.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">과몰입</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.02.07.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">여우눈</td>
+                            <td class="tg-title">작은 실수</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.02.13.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">차일구름</td>
+                            <td class="tg-title">딜레마</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.02.14.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">확증편향</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.02.16.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">사이코패스의 방</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.02.17.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">이 문장은 거짓이다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.02.18.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">인간의 이해</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.02.19.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">행복을 하자</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.02.21.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">상실의 시대</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.02.22.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">힌트</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.02.24.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">밑턱구름</td>
+                            <td class="tg-title"></td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.02.25.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">최초의 기억</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.02.26.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">가보자고</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.03.01.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">전운</td>
+                            <td class="tg-title">천사표 이별</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.03.03.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">지진</td>
+                            <td class="tg-title">명분과 실리 사이</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.03.06.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">어르광</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.03.08.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">고개 너머</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.03.09.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">돌개바람</td>
+                            <td class="tg-title">갈린 바다 사이에서</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.03.13.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">원시시대 불침번</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.03.15.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather"></td>
+                            <td class="tg-title">잘 부탁드립니다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.03.16.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">맑은편</td>
+                            <td class="tg-title">팡인</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.03.20.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather"></td>
+                            <td class="tg-title">학생답게 충실히</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.03.23.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather"></td>
+                            <td class="tg-title">보고 배운 것</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.03.24.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">살바람</td>
+                            <td class="tg-title">시쳇말</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.03.25.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">거먹구름</td>
+                            <td class="tg-title">노력하노라</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.03.26.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">바람꽃</td>
+                            <td class="tg-title">무정하고 잔인하다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.03.27.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">안개</td>
+                            <td class="tg-title">과학적으로 눈물이 난다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.04.06.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">먹구름</td>
+                            <td class="tg-title">정리된 개판</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.04.09.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">산들바람</td>
+                            <td class="tg-title">우거지 케이크</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.04.16.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">페티쉬 판타지 대나무 찰싹-행복</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.04.23.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">구름</td>
+                            <td class="tg-title">저에 대해 알려주세요.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.05.08.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather"></td>
+                            <td class="tg-title">젊음의 상징</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.05.09.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather"></td>
+                            <td class="tg-title">헬퍼 아이들을 구하라.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.05.10.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">먹구름</td>
+                            <td class="tg-title">뇌절</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.05.17.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">뭉게구름</td>
+                            <td class="tg-title">손희경팅</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.05.21.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">구름</td>
+                            <td class="tg-title">받아주는 사람이 없네.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.05.22.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">구름</td>
+                            <td class="tg-title">빈틈 없이</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.05.26.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">진눈깨비</td>
+                            <td class="tg-title">그런 게 있으면 그랬으면 좋겠어. 없으면 말고.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.05.31.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">백야</td>
+                            <td class="tg-title">상부상조</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.06.01.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">구름</td>
+                            <td class="tg-title">관심사</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.06.02.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">샛바람</td>
+                            <td class="tg-title">Kovy Korea</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.06.03.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">구름</td>
+                            <td class="tg-title">그래 이만 됐다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.06.08.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">지진운</td>
+                            <td class="tg-title">맘에 들어?</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.06.09.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">장마</td>
+                            <td class="tg-title">없던 일로</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.06.12.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">천둥</td>
+                            <td class="tg-title">가뭄 끝은 있어도 장마 끝은 없다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.06.14.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">꽃비</td>
+                            <td class="tg-title">그렇게 딱딱하진 않아</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.06.18.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">매우맑음</td>
+                            <td class="tg-title">고성방뇨</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.06.23.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">백야</td>
+                            <td class="tg-title">어떤거 같아?</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.06.26.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">will have loved</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.06.27.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">사랑법</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.06.28.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">동풍삭임</td>
+                            <td class="tg-title">누군가는 해야지</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.06.29.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">볕뉘</td>
+                            <td class="tg-title"></td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.07.05.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">고요</td>
+                            <td class="tg-title"></td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.07.06.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">개기월식</td>
+                            <td class="tg-title"></td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.07.11.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">도둑눈</td>
+                            <td class="tg-title">인터넷에 검색하면 나와.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.07.16.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">찜통더위</td>
+                            <td class="tg-title">0고백 2차임</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.07.20.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">구름</td>
+                            <td class="tg-title">추적</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.07.22.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather"></td>
+                            <td class="tg-title">중간이 죽은 사회</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.07.25.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">강쇠바람</td>
+                            <td class="tg-title">1000억</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.08.16.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">쇠눈</td>
+                            <td class="tg-title">연애는 눈싸움과 같다.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.08.17.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">최종합격 1인</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.08.19.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">고민 많이 해라</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.08.21.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">꽃바람</td>
+                            <td class="tg-title">All-time Wanted Sexy</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.08.26.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather"></td>
+                            <td class="tg-title">align</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.08.30.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">단비</td>
+                            <td class="tg-title"></td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.09.03.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">천둥번개</td>
+                            <td class="tg-title"></td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.09.04.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">구름</td>
+                            <td class="tg-title">내가 도와줄까?</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.09.07.</td>
+                            <td class="tg-day">수</td>
+                            <td class="tg-weather">웃비</td>
+                            <td class="tg-title">정리</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.09.12.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">먹구름</td>
+                            <td class="tg-title">폴NP</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.09.13.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">달구비</td>
+                            <td class="tg-title">다신 보지말자.</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.09.15.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">비거스렁이</td>
+                            <td class="tg-title">궁상 페스티벌</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.09.17.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">마파람</td>
+                            <td class="tg-title">즐기는 모드</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.09.18.</td>
+                            <td class="tg-day">일</td>
+                            <td class="tg-weather">개부심</td>
+                            <td class="tg-title">마음대로</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.09.19.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">우레비</td>
+                            <td class="tg-title">나랑 NP?</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.09.22.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">을씨년</td>
+                            <td class="tg-title">오해 ㄴㄴ</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.09.23.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">득</td>
+                            <td class="tg-title">갈아넣어</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.09.29.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">구름</td>
+                            <td class="tg-title">가까운 친구</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.10.06.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather"></td>
+                            <td class="tg-title">한 줄 표현</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.10.07.</td>
+                            <td class="tg-day">금</td>
+                            <td class="tg-weather">맑음</td>
+                            <td class="tg-title">브랜디즘</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.10.11.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">구름</td>
+                            <td class="tg-title">감사전도사</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.10.13.</td>
+                            <td class="tg-day">목</td>
+                            <td class="tg-weather">구름</td>
+                            <td class="tg-title">문명 속 속세 밖 회색지대</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.10.15.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">구름</td>
+                            <td class="tg-title">TOO OLD FOR LEO DICAPRIO</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.10.24.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">먹구름</td>
+                            <td class="tg-title">사라지는 박자가 자박자박</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.10.25.</td>
+                            <td class="tg-day">화</td>
+                            <td class="tg-weather">먹구름</td>
+                            <td class="tg-title">시간 상실</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.10.29.</td>
+                            <td class="tg-day">토</td>
+                            <td class="tg-weather">웃바람</td>
+                            <td class="tg-title">창식아</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-date">2022.10.31.</td>
+                            <td class="tg-day">월</td>
+                            <td class="tg-weather">고추바람</td>
+                            <td class="tg-title">결측치 Not Published</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="content">
+                모씨 형제는, 여기서 그 이름을 밝히지는 않겠거니와, 둘 다 옛날 중학교 시절의 좋은 친구들인데, 헤어진 지 여러 해 되어 소식이 점점 끊어졌다. 일전에 우연히 그중 하나가 크게 병이 났다는 소식을 듣고,
+                마침 고향으로 돌아가는 길에 좀 에돌아 찾아가서 그중 한 사람만을 만났는데, 병이 난 것은 그 동생이라고 했다. 자네가 먼 길을 보러 와러서 고맙지만, 벌써 병이 나아서 모지(某地)의 후보로 갔다는 것이다.
+                그리고서 크게 웃고, 일기 두 권을 내보이며, 당시의 증상을 알 수 있는데 옛 친구에게 주어도 무방하다고 말했다. 가지고 돌아와 읽어보니, 앓았던 병이 대체로 ‘피해망상증’ 종류임을 알 수 있었다. 말이 자못
+                뒤엉키고 두서가 없었으며 부조리한 말이 많았고 날짜도 쓰지 않았는데, 먹빛과 글씨체가 한결같지 않은 것으로 보아 한꺼번에 쓴 것이 아님은 알 수 있었다. 개중에는 다소 맥락을 갖춘 것도 있어서, 여기에
+                발췌하여 한 편의 글로 만들어 의학자들의 연구자료로 제공한다. 일기중에 말이 틀린 것이 있어도 한 글자도 고치지 않았는데. 단지 인명(人名)만은, 비록 모두 시골 사람이고 세상에 알려져 있지도 않으므로 별
+                상관이 없겠지만, 그래도 역시 다 고쳤다. 글의 제목은, 본인이 낫고 나서 붙인 것이니, 다시 고치지 않는다. 민국(民國) 7년 4월 2일 적음.
+    
+                <br>
+            
+                1
+            
+                오늘 밤은 달빛이 좋다.
+            
+                내가 이것을 못 본 지도 이미 삼십여 년이 되었는데, 오늘 보니 이 아주 상쾌하다. 지난 삼십여 년이 전부 혼미 상태였음을 이제야 비로소 알겠다. 하지만 십분 조심해야 한다. 그렇지 않다면, 저
+                짜오(趙)씨네 개가 어째서 나를 흘낏흘낏 훔쳐본단 말인가?
+            
+                내가 무서워하는 데는 그럴 만한 이유가 있다.
+    
+                <br>
+            
+                2
+            
+                오늘은 전혀 달빛이 없는 것으로 보아, 조짐이 좋지 않다는 것을 알 수 있다. 아침에 조심조심 외출했는데, 짜오꾸이(趙貴) 영감의 눈빛이 이상스러웠다. 나를 무서워하는 것 같기도 했고, 나를 해치려 하는 것
+                같기도 했다. 그밖에도 예닐곱 명의 사람들이 머리를 맞대고 귓속말로 나에 대해 수군거리고 있었는데, 그러면서도 내가 볼까봐 겁을 내고 있었다. 길에서 만난 사람들이 다 그랬다. 그중에 가장 흉측한 사람은 입을
+                크게 벌리고 나를 보며 껄껄 웃었다. 나는 머리끝부터 발끝까지 소름이 오싹 끼쳤고, 그들의 음모가 이미 다 짜여졌다는 것을 알아차렸다.
+            
+                그래도 나는 무서워하지 않고 여전히 내 갈 길을 갔다. 앞에서 한 무더기 어린아이들까지 나에 대해 수군거리고 있었는데, 눈빛도 짜오꾸이 영감과 똑같았고 얼굴색도 온통 푸르뎅뎅했다. 나와 무슨 원한이 있기에
+                아이들까지 저러는 걸까 하고 나는했다. 참을 수가 없어서 큰소리로 말했다. “나한테 말해봐!” 그러자 그들은 도망쳐버렸다.
+            
+                나는했다. 내가 짜오꾸이 영감과 무슨 원한이 있는 걸까, 길에서 만난 사람들과는 또 무슨 원한이 있는 걸까, 단지 이십년 전에, 꾸쥬(古久) 선생의 낡은 장부를 발로 밟는 바람에 꾸쥬 선생이 몹시
+                불쾌해한 적은 있었다. 짜오꾸이 영감은 그를 알지 못하지만 틀림없이 소문을 듣고 분개하여, 길에서 만난 사람들과 짜고 나를 적대시하는 것이리라. 하지만 아이들은? 그 당시에 그들은 아직 태어나지도 않았는데,
+                어째서 오늘, 나를 무서워하는 것 같기도 하고 나를 해치려 하는 것 같기도 한, 이상스러운 눈빛을 하고 있었을까. 나는 정말 그것이 무서웠고, 그것이 이상했으며 가슴 아팠다.
+            
+                알겠다. 그것은 그 부모들이 가르친 것이다!
+    
+                <br>
+            
+                3
+            
+                밤에는 도무지 잠을 이룰 수가 없다. 모든 일은 연구를 해야 알 수 있는 것이다.
+            
+                그들 중에는 지현에게 칼씌움을 당했던 자도 있고, 신사에게 뺨을 맞았던 자도 있고, 아전에게 자기 마누라를 뺏긴 자도 있고, 부모가 빚쟁이에게 핍박받아 죽은 자도 있는데, 그때의 그들의 얼굴은 어제처럼
+                그렇게 무서워하지도 않았고 그렇게 흉악하지도 않았다.
+            
+                가장 이상스러운 것은, 어제 길에서 만난 그 여자가 자기 아들을 때리며 입으로는 “이 새끼야! 너를 물어뜯어야 분이 풀리겠다!”라고 말하면서 눈으로는 나를 쳐다보고 있었다는 것이다. 나는 깜짝 놀라는 기색을
+                감출 수가 없었다. 얼굴이 창백하고 이빨이 날카로운 한 무리의 사람들이 모두 크게 웃기 시작했다. 천라오우(陳老五)가 다가와서 억지로 나를 집으로 끌고 갔다.
+            
+                집으로 끌어다 놓고, 집안사람들은 전부 나를 모르는 체했는데, 그들의 눈빛도 다른 사람들과 완전히 똑같았다. 서재로 들어가자 밖에서 문을 잠갔다. 꼭 한 마리 닭이나 오리를 가둬놓듯이 말이다. 그 바람에 나는
+                자세한 사정을 더욱 알 수 없게 되었다.
+            
+                며칠 전에, 랑즈춘의 소작인이 흉년이 들었다고 사정하러 와서 형에게 말했었다. 자기들 마을의 한 흉악범이 사람들에게 맞아죽었는데, 몇몇 사람이 그의 심장과 간을 꺼내어, 담을 크게 해준다면서 기름에 튀겨
+                먹었다는 것이다. 내가 말참견을 하자, 소작인과 형은 나를 힐끔힐끔 쳐다보는 것이었다. 그들의 눈빛이 바깥의 그 사람들과 완전히 똑같다는 것을 오늘에야 알았다.
+            
+                그것을하니 머리끝부터 발끝까지 소름이 끼친다.
+            
+                그들이 사람을 잡아먹는다면, 나를 잡아먹지 못하리라는 법도 없는 것이다.
+            
+                그렇다, “너를 물어뜯겠다”는 그 여자의 말이나 얼굴이 창백하고 이빨이 날카로운 사람들이 웃은 웃음이나 전날 소작일이 한 말 들은 분명히 암호인 것이다. 그들의 말 속에는 독이 가득하고 웃음 속에는 칼이
+                가득하고 그들의 이빨은 온통 하얗게 날카롭게 박혀 있는데, 그것들이 바로 사람을 잡아먹는 도구라는 것을 나는 알아차렸다.
+            
+                나는 나 자신을 악인(惡人)이 아니라고해왔지만, 꾸(古)씨네 장부를 밟은 이후로는 꼭 그렇다고 말하기도 어렵게 되었다. 그들에게는 다른 속셈이 있는 것 같은데 나는 전혀 짐작할 수가 없다. 하물며 그들은
+                안면을 바꾸었다 하면 금세 남을 악인이라고 하거늘. 형이 내게 논설 쓰는 법을 가르쳐주면서 아무리 좋은 사람이라 하더라도 그를 비난하면 잘했다고 동그라미를 쳐주고, 나쁜 사람을 변호하면 “하늘도 놀랄 만한
+                뛰어난 재주로다, 범상함과는 다르도다”라고 말하던 것을 나는 아직도 기억한다. 내가 그들의 속셈이 대체 어떤 것인지 어떻게 짐작할 수 있겠는가. 하물며 잡아먹으려고 하는 때에야.
+            
+                모든 일은 연구해야만 알 수 있다. 옛날부터 항상 사람을 잡아먹어왔다는 것을 나는 기억하지만, 그다지 분명하지는 않다. 역사책을 펼쳐 조사해보니, 이 역사책에는 연대가 없고 어느 페이지에나
+                ‘인의도덕(仁義道德)’이라는 몇글자가 비스듬하게 씌어 있었다. 어차피 잠도 오지 않고 해서, 한밤중까지 자세히 들여다보았는데, 그러자 글자와 글자 사이에서 또다른 글자가 보였다. 책에 가득 씌어져 있는 두
+                글자는 ‘식인(食人)’이었다!
+            
+                책에 이렇게 많은 글자가 씌어져 있고 소작인이 그렇게 많은 말을 했는데도, 오히려 다들 히죽히죽 웃으며 이상한 눈초리로 나를 쳐다본다.
+            
+                나도 사람이니까 그들은 나를 잡아먹으려 하는 것이다.
+    
+                <br>
+            
+                4
+            
+                아침에, 나는 한동안 가만히 앉아 있었다. 천라오우가 밥을 가져왔다. 채소 한 접시와 생선찜 한 그룻이었는데, 그 생선은 눈깔이 하얗고 딱딱한데다 입을 벌리고 있는 모습이 사람을 잡아먹고 싶어하는 그놈들과
+                똑같았다. 몇 젓가락 먹고 나니, 미끈미끈한 게 생선인지 사람인지 모르겠어서 뱃속의 것을 몽땅 토해버렸다.
+            
+                나는 “라오우, 형님께 말씀드리게, 내가 하도 갑갑해서 마당을 좀 거닐고 싶어한다고 말야”라고 말했다. 라오우는 아무 대답도 없이 나가더니, 잠시 후 돌아와서 문을 열어주었다.
+            
+                나는 꼼짝도 않고서, 그들이 나를 어떻게 처리할 것인가에 대해 연구했는데, 그들이 나를 풀어줄 리가 없다는 것은 알 수 있었다. 과연 그랬다! 형이 한 늙은이를 데리고 천천히 걸어왔다. 그는 눈에 흉악한 빛이
+                가득했는데, 내가 알아챌까봐 두려운 듯 땅을 향해 고개를 숙이고서 안경테 너머로 몰래 나를 살폈다. 형이 “오늘은 좋아 보이는구나”라고 말했다. 나는 “예”라고 말했다. 형은 “오늘은 허(何)선생께 너를
+                진찰해달라고 부탁했다”라고 말했다. 나는 “그러세요!”라고 말했다. 사실, 그 늙은이는 망나니가 변장한 것임을 내 어찌 모르겠는가! 진맥한다는 명분으로 얼마나 살쪘는지를 살펴보고, 그 공로로 고기를 한 조각
+                분배받으려는 것이다. 그래도 나는 무섭지 않았다. 사람을 잡아먹지는 않지만, 담은 그들보다 더 컸다. 두 주먹을 내밀고 그가 어떻게 하는가를 보았다. 늙은이는 앉아서 눈을 감고 한참을 더듬어보고는, 또 한참을
+                우두커니 있다가 그 음흉한 눈을 뜨고 말했다. “쓸데없는은 하지 마세요. 조용히 며칠 요양하면 좋아질 겁니다.”
+            
+                쓸데없는은 하지 말고 조용히 요양하라구! 요양해서 살이 찌면 자기들이야 먹을 게 더 많아지겠지만, 내게 무슨 좋은 점이 있으며, 어떻게 ‘좋아진다’는 거야? 이놈들은 사람을 잡아먹고 싶어하면서도 뒤에서
+                몰래 일을 꾸미며 어떻게 숨길까만하고 감히 직접 손을 쓰지는 못하는 것이니, 정말 웃기는 일이었다. 나는 참을 수가 없어서 소리를 놓아 크게 웃었더니 이 아주 좋아졌다. 이 웃음소리 속에 용기와
+                정기(正氣)가 충만하다는 것을 나 자신이 알 수 있었다. 늙은이와 형은 낯빛이 변했는데, 나의 용기와 정기에 압도당한 것이다.
+            
+                하지만 내가 용기가 있기 때문에 그들은 더욱더 나를 잡아먹고 싶어하는 것이다. 이 약간의 용기 덕택에 말이다. 늙은이는 문 밖으로 성큼 나가더니 그다지 멀리 가지 않아서 낮은 소리로 형에게 말했다. “얼른
+                먹읍시다!” 형이 고개를 끄덕였다. 아, 당신마저도! 이 대발견은 뜻밖인 것 같았지만 사실은 이미 짐작하고 있던 것이었다. 패를 지어 나를 잡아먹으려는 사람이 바로 나의 형인 것이다!
+            
+                사람을 잡아먹는 사람이 나의 형이다!
+            
+                나는 사람을 잡아먹는 사람의 동생이다!
+            
+                나 자신은 남에게 잡아먹히지만, 그래도 나는 여전히 사람을 잡아먹는 사람의 동생인 것이다!
+    
+                <br>
+            
+                5
+            
+                요 며칠은 한걸음 물러나해보았다. 그 늙은이가 망나니가 변장한 게 아니라 진짜 의사라 하더라도, 사람을 잡아먹는 사람이라는 데에는 변함이 없다. 그들의 제일가는 스승 이시진(李時珍)이 쓴 『본초(本草)
+                뭐뭐』에 사람고기를 지져 먹을 수 있다고 분명히 씌어 있는데도 자기는 사람을 잡아먹지 않는다고 말할 수 있단 말인가?
+            
+                우리 형으로 말하더라도, 억울하게 누명을 씌우는 것이 절대로 아니다. 그가 내게 글을 가르칠 때에, 자기 입으로 “자식을 바꾸어 먹을” 수 있다고 말했었고, 또 한번은 우연히 나쁜 사람 하나를 비난하다가
+                마땅히 죽여야 할 뿐 아니라 “그 살을 먹고 그 가죽을 깔고 자야” 한다고 말했던 것이다. 나는 그때 나이가 어려 하루 종일 가슴이 두근거렸다. 전날 랑즈춘의 소작인이 왔서 심장과 간을 먹은 일을 이야기했을
+                때에도 그는 조금도 이상스러워하지 않고 계속해서 고개를 끄덕였다. 마음이 전과 똑같이 흉악하다는 것을 알 수 있다. “자식을 바꾸어 먹을” 수 있다면, 무엇이든지 다 바꿀 수 있고 어떤 사람이든지 다 잡아먹을
+                수 있는 것이다. 전에는 그의 이야기를 듣기만 할 뿐 무심히 지나쳤는데, 그가 이야기를 할 때 입가에는 사람 기름을 칠한 채, 마음속은 사람을 잡아먹으려는으로 가득했다는 것을 이제는 알겠다.
+            
+                <br>
+    
+                6
+            
+                컴컴해서 낮인지 밤인지 모르겠다. 짜오씨네 개가 또 짖기 시작했다.
+            
+                사자같이 흉악한 마음, 토끼같이 비겁하고 여우같이 교활하고……
+    
+                <br>
+            
+                7
+            
+                나는 그들의 수법을 깨달았다. 직접 죽이는 건, 후환이 있을까 두려워, 하려고 하지도 않고 감히 하지도 못한다. 그래서 그들은 서로 연락하여 그물을 가득 쳐놓고 나를 자살하도록 핍박하는 것이다. 며칠 전
+                길에서 만난 남녀들의 모습이나 요 며칠간의 우리 형의 행동을 보면 그 십중팔구는 알아차릴 수 있다. 가장 좋기는 허리띠를 끌러 대들보에 걸고 스스로 목을 매어 죽는 것이다. 그들은 사람을 죽였다는 이야기도
+                듣지 않고 뜻하는 바를 이루게 되므로 모두들 미친 듯이 기뻐하며 거의 흐느끼는 듯한 웃음소리를 낼 것이 분명하다. 그렇지 않고 놀라움과 근심 때문에 죽는다면, 좀 마르기는 했어도 그런대로 잘된 거라고 고개를
+                끄덕일 것이다.
+            
+                그들은 오직 죽은 고기밖에 먹을 줄을 모른다!…… 무슨 책에선가 본 기억으로는, ‘하이에나’라는 짐승이 있는데, 눈초리와 모습이 몹시 못생겼고 항상 죽은 고기를 먹으며 아주 큰 뼈다귀까지도 잘게 씹어서
+                뱃속으로 삼킨다고 한다. 생각만 해도 무섭다. ‘하이에나’는 이리의 친척이고, 이리는 개의 일가이다. 전날 짜오씨네 개가 나를 힐끗힐끗 쳐다본 것으로 보아, 그놈도 공모했으며 벌써부터 타협이 되어 있었다는
+                것을 알 수 있다. 늙은이는 눈을 내리깔고 있었지만 어떻게 나를 속여넘길 수 있겠는가.
+            
+                가장 불쌍한 것은 우리 형이다. 그도 사람인데, 어째서 조금도 무서워하지 않고 패를 지어 나를 잡아먹으려 하는 걸까? 옛날부터 습관이 되어 잘못인 줄 모르는 걸까? 아니면 양심을 잃어버렸기 때문에 뻔히
+                알면서도 잘못을 저지르는 걸까?
+            
+                나는 사람을 잡아먹는 사람을 저주하는 것도 먼저 우리 형부터 시작하고, 사람을 잡아먹는 사람을 회개시키는 것도 먼저 우리 형부터 시작해야겠다.
+            
+                사실, 이런 이치는, 지금쫌 되면, 그들도 이미 알고 있어야 하는 건데‥‥‥
+    
+                <br>
+            
+                8
+            
+                갑자기 한 사람이 왔다. 나이는 겨우 스물 안팎이고, 얼굴 모습이 그다지 분명하게 보이지는 않았지만 만면에 웃음을 띤 채 나에게 고개를 끄덕였는데, 그의 웃음은 진짜 웃음 같지 않았다. 내가 그에게 “사람을
+                잡아먹는 것이 옳은일인가?” 라고 묻자 그는 여전히 웃으면서 “흉년도 아닌데 어떻게 사람을 잡아먹을 수 있겠어요” 라고 말했다. 즉각 나는 이놈도 한패로서 사람 잡아먹기를 좋아하는 놈이라는 것을 알아차리고서,
+                백배 용기를 내어 한사코 그를 추궁했다.
+            
+                “옳은 일인가?”
+            
+                “그런 건 물어서 뭐하려고요. 정말로 참…… 농담도 잘하시네…… 오늘은 날씨가 좋군요.”
+            
+                날씨도 좋고, 달도 밝다. 그렇지만 나는 너에게 물어야겠다.
+            
+                “옳은 일인가?”
+            
+                그는 그렇지 않다는 듯 모호하게 대답했다. “아니……”
+            
+                “아니라구? 그런데 어째서 잡아먹는 거지?!”
+            
+                “그런 일은 없는데……”
+            
+                “그런 일이 없다구? 랑즈춘에서는 지금도 잡아먹고 있고, 그리고 책에도 씌어 있어, 새빨갛고 신선하다고!”
+            
+                그는 얼굴빛이 시퍼렇게 변하더니 눈을 크게 뜨고 말했다. “그럴 수도 있겠죠, 그건 옛날부터 그랬던 거니까……”
+            
+                “옛날부터 그랬다면, 그럼 옳은 일인가?”
+            
+                “당신하고 그런 걸 따지고 싶지 않아요. 어쨌든 당신은 그런 소릴 하면 안돼요, 그런 소리를 하는 건 잘못이야 !”
+            
+                내가 벌떡 일어나 눈을 부릅뜨고 살펴보니 이미 그 사람은 보이지 않았다. 온몸에 흥건히 땀이 났다. 그의 나이는 우리 형보다 휠씬 어리지만, 역시 한패였다. 이것은 틀림없이 그의 부모가 먼저 가르쳐준 것이다.
+                이미 자기 아들에게도 가르쳐주었을지 모른다. 그래서 어린아이들까지도 나를 흉악하게 쳐다보는 것이다.
+    
+                <br>
+            
+                9
+            
+                자기는 사람을 잡아먹고 싶어하면서도, 다른 사람에게 잡아먹히는 건 두려워서 모두들 극심한 의심의 눈초리로 서로서로를 훔쳐보고……
+            
+                이런을 버리고, 마음놓고 일을 하고 길을 가고 밥을 먹고 잠을 자면 얼마나 편안할까. 그것은 단지 문지방 하나, 고비 하나의 차이일 뿐이다. 그러나 그들은 아버지와 아들, 형과 아우, 남편과 아내,
+                친구와 친구, 스승과 제자., 원수와 적, 그리고 서로 모르는 남남까지 다같이 한패가 되어 서로 격려하고 서로 견제하며 죽어도 그 한걸음을 내디디려고 하지 않는 것이다.
+    
+                <br>
+            
+                10
+            
+                아침 일찍 형을 찾아갔다. 그는 대청 문 밖에 서서 하늘을 바라보고 있었는데, 나는 그의 등뒤로 가 문을 막고 서서 몹시 침착하게, 그리고 몹시 부드럽게 그에게 말했다.
+            
+                “형님, 형님께 드릴 말씀이 있습니다.”
+            
+                “말해봐라.” 그는 얼른 얼굴을 돌리고서 고개를 끄덕였다.
+            
+                “몇마디만 하면 되는데, 말이 잘 안 나옵니다. 형님, 아마 처음에 야만인들은 모두 다 사람을 잡아먹었을 겁니다. 나중에이 달라졌기 때문에, 어떤 사람들은 사람을 잡아먹지 않고 오직 착해지려고 해서
+                사람으로 변했죠, 진짜 사람으로 말예요. 어떤 사람들은 계속해서 잡아먹었어요…… 벌레와 마찬가지로 말이죠, 어떤 사람은 물고기, 새, 원숭이로 변했다가 사람으로까지 변했고요. 어떤 사람은 착해지려고 하지
+                않아서 아직까지도 벌레인 겁니다. 사람을 먹는 사람은 사람을 먹지 않는 사람께 비해 얼마나 부끄러운 것입니까. 벌레가 원숭이 앞에서 부끄러운 것보다 훨씬 더 부끄러울 겁니다.
+            
+                역아(易牙)가 자기 아들을 삶아 걸주(桀紂)에게 먹인 것은 그래도 먼 옛날의 일입니다. 반고(盤古)가 천지를 개벽한 이후로 역아의 아들까지 계속 잡아먹었고, 역아의 아들로부터 쉬시린까지 계속 잡아먹었으며,
+                쉬시린으로부터 랑즈춘에서 붙잡힌 사람까지 또 계속해서 잡아먹었습니다. 작년에 시내에서 죄인을 죽였을 때는, 폐병 걸린 사람 하나가 만두에다 그 피를 적셔서 먹었습니다.
+            
+                그들이 나를 잡아먹으려고 하는데, 형님 혼자서는 어쩔 수가 없겠죠. 하지만 말예요, 한패가 될 것까지는 없잖아요. 사람을 잡아먹는 사람이 무슨 짓은 못하겠어요. 그들은 나를 잡아먹을 거고, 또 형님도 잡아먹을
+                겁니다. 자기들끼리도 서로 잡아먹을 겁니다. 하지만 한걸음 돌아서기만 하면, 즉각 고치기만 하면, 모두들 태평해질 텐데요. 전에는 그랬다고 해도 말이죠, 우리는 오늘부터라도 열심히 착해지려고 할 수 있는
+                거예요, 안된다고 하세요! 형님, 저는 형님이 그렇게 말할 수 있다고 믿어요, 전날 소작인이 도지를 감해달라고 했을 때도 형님은 안된다고 하셨었지요.”
+            
+                처음에 그는 차갑게 웃기만 하다가 나중에는 눈빛이 흉악해지기 시작하더니, 그들의 비밀을 폭로하기에 이르자 얼굴이 온통 새파랗게 변했다. 대문 밖에 서 있던 한 무리의 사람들이, 그중에는 짜오꾸이 영감과 그의
+                개도 있었는데, 두리번거리며 비집고 들어왔다. 마치 보자기로 가린 것처럼 얼굴을 알아볼 순 없는 사람도 있었고, 예의 창백한 얼굴에 날카로운 이빨을 드러내며 입을 벌리고 웃는 사람도 있었다. 그들이 한패이며
+                모두 다 사람을 잡아먹는 자들이라는 것을 나는 알아차렸다. 그러나 그들의이 다 같은 것은 아니어서 한 부류는 옛날부터 그래왔으니까 잡아먹는 게 당연하다고하고, 다른 한 부류는 잡아먹어서는 안되는
+                줄을 알면서도 여전히 잡아먹으려 하기 때문에 내 말을 듣고 더욱 화가 나는데 차마 화를 내지는 못해 입을 오므리고 차갑게 웃는다는 것도 알아차렸다.
+            
+                그때, 형이 갑자기 험악한 표정을 지으며 큰소리로 외쳤다.
+            
+                “다들 나가요! 미친놈이 뭐 볼 게 있다구 그래요!”
+            
+                그때, 나는 그들의 교묘한 수법을 또하나 알아차렸다. 그들은 고치려 하지 않는 것은 물론이고, 미친놈이라는 명분을 준비해두었다가 나에게 뒤집어씌우기로 진작부터 계획을 짜놓은 것이다. 장차 잡아먹어도 무사태평할
+                뿐만 아니라 사람들에게 동정을 받을 수도 있을 것이다. 소작인이 말한, 사람들이 흉악범을 하나 잡아먹었다는 것도 바로 이 방법이었다. 이것은 그들의 상투 수단인 것이다!
+            
+                천라오우도 화를 내며 곧장 다가왔다. 하지만 어떻게 내 입을 막을 수 있겠는가, 나는 한사코 이자들에게 말했다.
+            
+                “당신들은 고칠 수 있어, 진심으로 고치라구! 앞으로는 사람을 잡아먹는 사람은 세상에 살아갈 수 없게 된다는 걸 알아야지.”
+            
+                “당신들이 고치지 않으면, 자기 자신도 다 잡아먹힐 거야. 아무리 많이 낳아도 진짜 사람들에게 멸망당할 거야, 사냥꾼이 이리를 모조리 잡아죽이는 것처럼 말야! 벌레처럼 말야!”
+            
+                그자들은 천라오우에게 쫓겨났다. 형도 어디론가 사라져버렸다. 천라오우가 나를 방으로 데리고 갔다. 방안은 온통 컴컴했다. 대들보와 서까래가 머리 위에서 떨기 시작했다. 잠시 떨다가 갑자기 커지면서 내 몸을
+                짓눌렀다.
+            
+                어찌나 무거운지 움직일 수가 없었다. 이놈이 나를 죽이려는 것이다. 나는 이놈의 무게가 가짜라는 것을 알아차리고 몸부림쳐 빠져나왔다. 온몸이 땀투성이가 되었다. 그렇지만 한사코 말했다.
+            
+                “지금 당장 고쳐라, 진심으로 고치란 말야! 이걸 알아야 한다구, 앞으로는 안된다니까, 사람을 잡아먹는 사람은……”
+    
+                <br>
+            
+                11
+            
+                해도 뜨지 않고, 문도 열리지 않고, 날마다 두 끼 식사뿐이다.
+            
+                젓가락을 들자 형이 났고, 누이동생이 죽은 까닭도 전부 그에게 있다는 걸 깨달았다. 그때 누이동생은 겨우 다섯살이었는데, 그 귀엽고 불쌍한 모습이 지금도 눈에 선하다. 어머니가 한없이 울자, 그는
+                어머니에게 울지 마시라고 했다. 아마, 자기가 잡아먹어서, 자꾸 울면 약간 미안한 마음이 들기 때문이었을 것이다. 지금도 미안한 마음을 가질 줄 안다면……
+            
+                누이동생은 형에게 잡아먹혔다. 그것을 어머니가 아셨는지 모르셨는지 나는 알 수 없다.
+            
+                어머니도 아셨으리라된다. 그러나 울기만 할 뿐 아무 말씀도 하지 않으셨는데, 아마도 당연한 일이라고했기 때문일 것이다. 내가 너덧살 되던 무렵에 대청 앞에 앉아 바람을 쐬고 있는데, 형이, 부모가
+                병에 걸리면 자식 된 자는 자기 살을 한 점 베어내어 그것을 삶아 부모님께 잡숫게 해야 좋은 사람이라 할 수 있다고 말했었고, 그러자 어머니도 안된다고 말씀하지 않으셨던 것이 기억난다. 한 점을 먹을 수
+                있다면 물론 통째로도 먹을 수 있는 것이다. 그러나 그날의 울음은, 지금해도, 정말로 사람의 마음을 아프게 하는 것이니, 이는 참으로 이상한 일이다!
+    
+                <br>
+            
+                12
+            
+                더이상할 수가 없다.
+            
+                사천년 동안 늘 사람을 잡아먹어온 곳, 나도 오랫동안 그 속에 섞여 살아왔다는 것을 오늘에야 깨달았다. 형이 집안일을 보고있을 때 마침 누이동생이 죽었으니, 그가 음식에 섞어 몰래 우리에게 먹였을지도 모르는
+                것이다.
+            
+                나도 무의식중에 내 누이동생의 고기를 몇점 먹었는지 모르는 것인데, 이제는 내 차례가 된 것이다……
+            
+                사천년의 식인의 이력을 가진 나는, 처음에는 몰랐었지만, 이제는 알겠다, 진짜 사람을 만나기가 어렵다는 것을 !
+    
+                <br>
+            
+                13
+            
+                사람을 먹은 적이 없는 아이들이, 혹시 아직 있을까?
+            
+                아이들을 구하라……
+            
+            
+            
+                1918년 4월
+            </div>
+    
+            <div class="link" id="link">
+                https://uxplanet.org/must-have-productivity-apps-for-designers-in-2022-e6c671ccb743 <br>
+                https://www.wikitree.co.kr/articles/337561 <br>
+                https://yozm.wishket.com/magazine/detail/1545/ <br>
+                https://designcompass.org/2022/07/03/design-bible/ <br>
+                https://designcompass.org/2022/07/31/bx-design-bibles/ <br>
+                https://yozm.wishket.com/magazine/detail/1594/ <br>
+                https://yozm.wishket.com/magazine/detail/1256/ <br>
+                https://m.blog.naver.com/jongscokr/222436857058 <br>
+                https://brunch.co.kr/@bong/194 <br>
+                https://brunch.co.kr/@thinkaboutlove/347 <br>
+                https://m.blog.naver.com/designpress2016/222102486464 <br>
+                https://m.post.naver.com/viewer/postView.nhn?volumeNo=29893290&memberNo=44045763&vType=VERTICAL <br>
+                https://brunch.co.kr/@thinkaboutlove/320 <br>
+                https://m.blog.naver.com/designpress2016/222402189469 <br>
+                https://designshack.net/articles/inspiration/what-is-brand-identity-examples/ <br>
+                https://thenextweb.com/news/nvidias-new-ai-magic-turns-2d-photos-into-3d-graphics <br>
+                https://m.blog.naver.com/PostView.nhn?blogId=djungle&logNo=222292527702&proxyReferer=https:%2F%2Fm.naver.com%2F <br>
+                http://icunow.co.kr/google-fonts-pairings/ <br>
+                https://www.castingn.com/cblog/detail?JI_PK=460 <br>
+                https://www.msn.com/ko-kr/news/techandscience/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EB%8F%84-%EB%8F%85%EC%B0%BD%EC%A0%81-%EB%AF%B8%ED%95%99%EC%9D%84-%EA%B0%80%EC%A7%88-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/ar-AAKGHF2?ocid=msedgntp <br>
+                https://terms.naver.com/entry.naver?docId=6417120&cid=58151&categoryId=58151 <br>
+                https://m.blog.naver.com/designpress2016/222248943317 <br>
+                https://m.post.naver.com/viewer/postView.nhn?volumeNo=31535956&memberNo=43744954 <br>
+                https://m.blog.naver.com/PostView.naver?blogId=businessinsight&logNo=222706916484&proxyReferer=https:%2F%2Fm.naver.com%2F <br>
+                https://depromeet.medium.com/%EB%94%94%ED%94%84%EB%A7%8C-10%EA%B8%B0%EC%9D%98-%EB%B8%8C%EB%9E%9C%EB%94%A9-%EC%8A%A4%ED%86%A0%EB%A6%AC-48f35ac64458 <br>
+                https://yozm.wishket.com/magazine/detail/1675/ <br>
+                https://blog.toss.im/article/toss-newlogo?utm_source=facebook&utm_medium=post&utm_campaign=rebanding&fbclid=IwAR0Hdibhw7EpA8vI3iJLmeFtII2MxiGYanFtQehfOOdNgsvw8BIBkITn_Rg <br>
+                https://designcompass.org/2022/09/05/toss-new-symbol/ <br>
+                https://dailyblogging.org/internet/internet-marketing/logo-statistics/ <br>
+                https://medium.com/@marsdevs./design-101-the-best-and-worst-logo-redesigns-weve-ever-seen-cf6ca5884c04 <br>
+                https://yozm.wishket.com/magazine/detail/1587/ <br>
+                https://alyselee.medium.com/%ED%85%8C%ED%81%AC-%EA%B8%B0%EC%97%85%EC%9D%98-%EB%9D%BC%EC%9D%B4%ED%8C%85-%EC%8A%A4%ED%83%80%EC%9D%BC-%EA%B0%80%EC%9D%B4%EB%93%9C-1-6b3b87d108ec <br>
+                http://www.docdocdoc.co.kr/news/articleView.html?idxno=2012896 <br>
+                https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=tech-plus&logNo=222379020236&proxyReferer=https:%2F%2Fm.naver.com%2F <br>
+                https://careerly.co.kr/comments/23670?utm_campaign=user-share <br>
+                https://m.post.naver.com/viewer/postView.nhn?volumeNo=30425586&memberNo=6457418&vType=VERTICAL <br>
+                https://m.post.naver.com/viewer/postView.nhn?volumeNo=30886188&memberNo=6457418&vType=VERTICAL <br>
+                https://m.post.naver.com/viewer/postView.naver?volumeNo=32555568&memberNo=6457418 <br>
+                https://yozm.wishket.com/magazine/detail/1515/ <br>
+                https://yozm.wishket.com/magazine/detail/1505/ <br>
+                https://www.redbusbagman.com/5uxresearch/ <br>
+                https://le-penseur.tistory.com/16 <br>
+                https://yozm.wishket.com/magazine/detail/1522/ <br>
+                https://designcompass.org/2022/06/14/2022-apple-human-interface-guide/ <br>
+                https://pinterest.design/what-is-quantitative-user-experience-research-at-pinterest-8eb17c69a0fc <br>
+                https://brunch.co.kr/@meetcute/72 <br>
+                https://www.nngroup.com/articles/increase-user-autonomy/ <br>
+                https://brunch.co.kr/@b30afb04c9f54dc/11 <br>
+                https://gsretail.tistory.com/18 <br>
+                https://uxplanet.org/10-most-popular-design-systems-to-learn-from-in-2022-for-ux-designers-18a24843a860 <br>
+                https://yozm.wishket.com/magazine/detail/1564/ <br>
+                https://brunch.co.kr/@jinbread/196 <br>
+                https://blog.toss.im/article/why-motion-in-finance <br>
+                https://yozm.wishket.com/magazine/detail/1604/ <br>
+                https://uxmag.com/articles/most-read-articles-of-q1-2022 <br>
+                https://bootcamp.uxdesign.cc/design-talks-2022-9e0f46055682 <br>
+                https://blog.stibee.com/%EC%8A%A4%ED%8B%B0%EB%B9%84%EC%9D%98-%ED%94%84%EB%A1%9C%EB%8D%95%ED%8A%B8-%EB%94%94%EC%9E%90%EC%9D%B4%EB%84%88%EA%B0%80-%EC%9D%BC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-dd8066f25b78 <br>
+                https://surfit-story.medium.com/%EA%B0%90%EC%84%B1%EC%A0%81%EC%9D%B8-%EC%9D%B4%EA%B3%B5%EA%B3%84-%EC%86%8C%EB%85%84-%EA%B5%AC%EA%B8%80-%EB%94%94%EC%9E%90%EC%9D%B8-%EB%A6%AC%EB%93%9C%EA%B0%80-%EB%90%98%EA%B8%B0%EA%B9%8C%EC%A7%80-1%ED%8E%B8-1d3cdbb31d26 <br>
+                https://www.fastcompany.com/90776313/theres-a-new-gmail-but-can-it-ever-really-change?partner=rss&utm_source=twitter.com&utm_medium=social&utm_campaign=rss+fastcompany&utm_content=rss <br>
+                https://yozm.wishket.com/magazine/detail/1648/ <br>
+                https://channelsearch.naver.com/service/issue03_3/?pcode=paid_instagram_omnisearch_uxui <br>
+                https://medium.com/@FlowMapp/20-must-key-terms-for-ux-designers-a05e7ca0b6af <br>
+                https://brunch.co.kr/@ggk234/31 <br>
+                https://brunch.co.kr/@rightbrain/128 <br>
+                https://yozm.wishket.com/magazine/detail/1552/ <br>
+                https://brunch.co.kr/@joojun/141 <br>
+                https://content.v.kakao.com/v/60701f638dee770a410dea14 <br>
+                https://blog.ncsoft.com/ai-framework-ep05-210610/?fbclid=IwAR1UGrCf0yM7fT8YLxvrdEM2jv1wvZqPyjOh2rvpig3NXqFXuEa63Vx5mfc <br>
+                https://m.post.naver.com/viewer/postView.naver?volumeNo=32318172&memberNo=2170614&vType=VERTICAL <br>
+                https://m.blog.naver.com/designpress2016/222602978055 <br>
+                https://contents.premium.naver.com/philtech/knowledge/contents/220110222221708Un <br>
+                https://careerly.co.kr/comments/27639?utm_campaign=user-share <br>
+                https://v.kakao.com/v/20210614174702919 <br>
+                https://n.news.naver.com/article/018/0005130553?cds=news_my <br>
+                https://news.mk.co.kr/v2/economy/view.php?year=2021&no=534357 <br>
+                https://v.kakao.com/v/20210611220941098 <br>
+                https://v.kakao.com/v/20210511201309818 <br>
+                https://m.post.naver.com/viewer/postView.naver?volumeNo=31773292&memberNo=49994438&navigationType=push <br>
+                https://news.samsung.com/kr/%ec%a0%84-%ec%84%b8%ea%b3%84-%ed%81%ac%eb%a6%ac%ec%97%90%ec%9d%b4%ed%84%b0%eb%93%a4%ec%9d%b4-%eb%a7%90%ed%95%98%eb%8a%94-%ec%82%bc%ec%84%b1-%eb%9d%bc%ec%9d%b4%ed%94%84%ec%8a%a4%ed%83%80?utm_source=nr_facebook&utm_medium=social&fbclid=IwAR2aHutvO9oVje9qZ0QjcGovq0mtf6avIxkrj2V3iqFKbpaXNmF2S3mQHmc <br>
+                https://youtube-kr.googleblog.com/2022/02/innovations-for-2022-at-youtube.html?m=1 <br>
+                https://n.news.naver.com/article/newspaper/015/0004706090?date=20220601 <br>
+                https://www.techm.kr/news/articleView.html?idxno=91997 <br>
+                https://www.digitaltoday.co.kr/news/articleView.html?idxno=460929 <br>
+                https://linepluscorp.com/pr/news/ko/2022/4341 <br>
+                https://brunch.co.kr/@miracle205/158 <br>
+                https://m.blog.naver.com/designpress2016/222262843952 <br>
+                https://www.noblesse.com/home/news/magazine/detail.php?no=9443 <br>
+                https://v.kakao.com/v/20210719155047292 <br>
+                https://v.kakao.com/v/20210714100205373 <br>
+                https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=qualcommkr&logNo=222398792565&proxyReferer=http:%2F%2Fm.facebook.com%2F <br>
+                https://v.kakao.com/v/20210613143320444 <br>
+                https://blog.lgcns.com/2677?fbclid=IwAR29zNv4fPAH21qVXV07X3m0Af_OncLssOX10Bo03Yd7uxwU2syVCRd0KVM <br>
+                https://blog.lgcns.com/2830?fbclid=IwAR3JKnnNPYbBFvqbSvpy6ldcEhvSKcZBDVmBNIRQQFOzAWRFhBPI3jT6xNU <br>
+                https://m.blog.naver.com/PostView.naver?blogId=tech-plus&logNo=222583917838&proxyReferer=https:%2F%2Fm.naver.com%2F <br>
+                https://www.superb-ai.com/ko-blog/everything-about-computer-vision-data?fbclid=IwAR2hL3Z8TmqGkJrjIcXhLh8hen5HK38Z_vfeGSNKP11njjQlgfvdAqFO6Gs <br>
+                https://ebadak.news/2022/01/09/2022-questions/ <br>
+                https://blog.lgcns.com/2806?category=515093&fbclid=IwAR1DO8O5ETxYRdO80CHv1ifVWqJ8AfrC9xEPmaJLcaUjf9nuGC7bp5KbZ8Q <br>
+                https://www.msnbc.com/the-reidout/reidout-blog/meta-mark-zuckerberg-are-planning-virtual-world-domination-rcna34953 <br>
+                https://thenextweb.com/news/nvidias-new-ai-magic-turns-2d-photos-into-3d-graphics <br>
+                https://v.kakao.com/v/20210605110006711 <br>
+                https://content.v.kakao.com/v/600931e68c31e10ed1c870fe <br>
+                https://yozm.wishket.com/magazine/detail/824/?utm_campaign=product&utm_medium=social&utm_source=kakao&utm_term=%7Bquery%7D <br>
+                https://news.samsung.com/kr/%eb%8d%94-%eb%82%98%ec%9d%80-%eb%af%b8%eb%9e%98%eb%a5%bc-%ec%9c%84%ed%95%b4-%ec%83%81%ec%83%81%ec%9d%84-%ed%98%84%ec%8b%a4%eb%a1%9c-%eb%a7%8c%eb%93%a0-5%ec%9d%b8%ec%9d%98-%ec%82%bc?utm_source=nr_facebook&utm_medium=social&fbclid=IwAR1QO4CnsewrU95pI29ypHmPvTGkeryTU1GVh7v7a_TijG_NeMeQ1029Lqw <br>
+                https://brunch.co.kr/@sacony/21 <br>
+                https://www.cbinsights.com/research/startup-failure-reasons-top/ <br>
+                https://www.minwookim.kr/experiment-hypothesis-for-startups/ <br>
+                https://medium.com/hyperinbox-kr/why-figma-wins-figma%EB%8A%94-%EC%99%9C-%EC%9D%B4%EA%B8%B0%EB%8A%94%EA%B0%80-77d42c67b926 <br>
+                https://ppss.kr/archives/255111 <br>
+                https://www.superb-ai.com/ko-blog/everything-about-computer-vision-data?fbclid=IwAR2hL3Z8TmqGkJrjIcXhLh8hen5HK38Z_vfeGSNKP11njjQlgfvdAqFO6Gs <br>
+                https://www.navercorp.com/value/research/view/28 <br>
+                https://www.msn.com/ko-kr/news/techandscience/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EB%8F%84-%EB%8F%85%EC%B0%BD%EC%A0%81-%EB%AF%B8%ED%95%99%EC%9D%84-%EA%B0%80%EC%A7%88-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C/ar-AAKGHF2?ocid=msedgntp <br>
+                https://talkingaboutme.tistory.com/entry/Book-Machine-Learning-with-web-optimization?fbclid=IwAR0G0tqSJdQWg6osSbGxK4EHGv0bSo3Ie32D01Vt414R7zNfldjZCxClwKY <br>
+                http://www.gdweb.co.kr/sub/list.asp?Txt_fgbn=7 <br>
+                https://www.designweek.co.uk/design-week-awards-winners-showcase-2022/ <br>
+                https://www.thewordcracker.com/miscellaneous/2020%EB%85%84-%EB%A1%9C%EA%B3%A0-%ED%8A%B8%EB%A0%8C%EB%93%9C-top-10/ <br>
+                http://www.san-shin.org/Sacred-Mtns-01.html <br>
+                https://www.google.com/doodles#archive <br>
+                https://www.abocado.kr/brand_news/news_detail?no=142 <br>
+                https://freelifeyonging.tistory.com/13 <br>
+                https://typespiration.com/ <br>
+                https://www.oasejournal.nl/en/Issues <br>
+                https://www.dailyicon.net/2010/10/books-the-geometry-of-pasta/ <br>
+                http://studioworldwide.net/project/ghostpatrol/ <br>
+                https://paperpress.kr/ <br>
+                https://spectorbooks.com/seria-1-the-silk-museum <br>
+                https://www.slanted.de/ <br>
+                https://www.romapublications.org/index.html <br>
+                https://www.joshwcomeau.com/css/make-beautiful-gradients/ <br>
+                https://color.adobe.com/ko/create/color-wheel <br>
+                https://mycolor.space/ <br>
+                https://0to255.com/ <br>
+                https://juliusvonbismarck.com/bank/ <br>
+                https://mutek.org/ <br>
+                https://brunch.co.kr/@thisdesign/5 <br>
+                https://brunch.co.kr/@yooldesign/31 <br>
+                https://brunch.co.kr/@cliche-cliche/73 <br>
+                https://cargocollective.com/hooroot/11208278 <br>
+                https://www.i-boss.co.kr/ab-1486505-27639 <br>
+                https://www.youtube.com/playlist?list=PLj8krJPdI837YrVOxujE7Hcb8DpMXLn78 <br>
+                https://runwayml.com/ <br>
+                https://ars.electronica.art/prix/en/ <br>
+                https://vimeo.com/showcase/3111432 <br>
+                https://brunch.co.kr/@halo0901/14 <br>
+                https://brunch.co.kr/@blckschrl/40 <br>
+                https://brunch.co.kr/@ebprux/200 <br>
+                https://uxdesign.cc/ux-in-2022-no-code-tools-design-waste-the-ux-of-nfts-d09370af4fad <br>
+                https://blog.rightbrain.co.kr/?p=13414&fbclid=IwAR3G8C-3_p6GAVF-3E4YpM4ae8dEZIpVJbBLSa9rsT-lZbo7I6RNNfZjiLM <br>
+                http://rwdb.kr/interactionbutton/ <br>
+                https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=eggpage&logNo=220960517303 <br>
+                https://designcompass.org/2022/06/09/line-ground/ <br>
+                https://www.onsotong.go.kr/fron/jdgmn/jdgmnCaseListPage.do?qustnr_id=b8807ded9b724c59b051a1bbbdbb618e <br>
+                https://designus.io/reference?tab=service <br>
+                https://www.theappfuel.com/ <br>
+                https://wwit.design/ <br>
+                https://mobbin.com/browse/ios/apps <br>
+                https://pageflows.com/ <br>
+                https://www.editorx.com/shaping-design/digital-design-trends-2022?ref=onepagelove <br>
+                https://hype4.academy/tools/glassmorphism-generator <br>
+                https://neumorphism.io/#e0e0e0 <br>
+                https://tonite.dance/ <br>
+                https://readymag.com/examples/ <br>
+                https://www.webdesignerdepot.com/ <br>
+                https://moments.epic.net/# <br>
+                https://jazzkeys.plan8.co/ <br>
+                http://fontmap.ideo.com/ <br>
+                https://matthewlein.com/tools/ceaser <br>
+                https://css-tricks.com/almanac/properties/f/filter/ <br>
+                https://caniuse.com/ <br>
+                https://d3js.org/ <br>
+                https://www.w3schools.com/ <br>
+                https://awesomeopensource.com/project/b-g/p5-matter-examples <br>
+                https://modulabs.co.kr/ <br>
+                https://www.hackerrank.com/dashboard <br>
+                https://www.programiz.com/python-programming/online-compiler/ <br>
+                https://codepen.io/blurblue/pen/zqQzRR <br>
+                https://practiceit.cs.washington.edu/problem/list <br>
+                https://www.codercrunch.com/ <br>
+                https://codingbat.com/java <br>
+                https://imaginecup.microsoft.com/ko-kr <br>
+                https://github.com/mattatz/unity-optical-flow <br>
+                https://gregstoll.dyndns.org/~gregstoll/baseball/stats.html#V.2.8.0.1.0.0 <br>
+                https://footlab.loplat.com/ <br>
+                https://www.naverlabs.com/storyDetail/199 <br>
+                https://www.naverlabs.com/datasets <br>
+                https://www.tableau.com/ko-kr/learn/articles/best-beautiful-data-visualization-examples <br>
+                http://www.docuhut.com/category/%ED%86%B5%EC%B0%B0/bioinfomatics/%EC%9B%B9%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%8B%9C%EA%B0%81%ED%99%94/ <br>
+                https://teachablemachine.withgoogle.com/ <br>
+                https://ml-app.yah.ac/ <br>
+                https://pair.withgoogle.com/ <br>
+                https://scikit-learn.org/stable/ <br>
+                https://github.com/TadasBaltrusaitis/OpenFace <br>
+                https://google.github.io/mediapipe/ <br>
+                https://roboflow.com/ <br>
+                https://mmla.gse.harvard.edu/ <br>
+                https://www.nvidia.com/ko-kr/gtc/?ncid=pa-so-face-45008&fbclid=IwAR1kapKWSaoMm8gnF_6UDvXlu8DbOiayNjJI_DiRh_kPnIR7C9Z1uXAxmwU <br>
+                https://post.naver.com/viewer/postView.naver?volumeNo=32540577&memberNo=34635212 <br>
+                https://medium.com/ai-networkkr/ai-%EB%AA%A8%EB%8D%B8-%ED%83%90%ED%97%98%EA%B8%B0-7-%ED%95%9C%EA%B8%80-%EB%B2%84%EC%A0%84%EC%9D%98-gpt-2-f7317e6499f9 <br>
+
+                https://v.daum.net/v/59c8df14ed94d20001768f3a <br>
+                https://toss.tech/article/how-to-write-error-message <br>
+                https://ui-ux-agency.medium.com/top-user-experience-ui-ux-design-agencies-37f6423bde26 <br>
+                https://www.ttimes.co.kr/article/2022092817537794035?ref=face <br>
+                https://yozm.wishket.com/magazine/detail/1569/ <br>
+                https://make-a-video.github.io/ <br>
+                https://yozm.wishket.com/magazine/detail/1720/ <br>
+                https://designcompass.org/2022/10/03/google-search-on-22/ <br>
+                https://publy.co/content/6999?s=bcw06s <br>
+                https://m.blog.naver.com/PostView.naver?blogId=enslpartners&logNo=222868504604&proxyReferer= <br>
+                https://webhostingprof.com/blog/ux-statistics/ <br>
+                https://growth.design/psychology/cheatsheet <br>
+                https://brunch.co.kr/@pliossun/214 <br>
+                https://wandb.ai/site <br>
+                https://brunch.co.kr/@lovelylucia/92 <br>
+                https://blog.curiosity.ai/10-hottest-new-apps-to-explore-immediately-september-2022-e7a356d684ac <br>
+                http://choyoungkak.com/portfolio/category/individual-work <br>
+
+                https://lexica.art/ <br>
+                https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features <br>
+                https://beta.openai.com/examples <br>
+                https://rhizome.org/ <br>
+                https://blog.naver.com/climaxsfs/130079866786 <br>
+                https://collectui.com/designs <br>
+                https://appmaster.io/ko/blog/2022nyeon-top-10-mobail-aeb-ui-dijain-aidieo <br>
+                https://www.csswinner.com/ <br>
+                https://shakuro.com/works/ <br>
+                https://www.awwwards.com/ <br>
+                https://mobbin.com/browse/ios/apps <br>
+                https://nftnewspro.com/soulbound-tokens-sbts-explained/ <br>
+
+                https://www.opentutorials.org/course/3083 <br>
+                https://docs.oracle.com/javase/7/docs/api/ <br>
+                https://horizon.kias.re.kr/ <br>
+                https://uostory.uos.ac.kr/site/main/index001?prevurl=https%3A%2F%2Fuostory.uos.ac.kr%2Findex.jsp%3FepTicket%3DST-354819-nx6M2ILypWaIcFZ1jOPh5j4bo5bNrpe9hKk-21 <br>
+                https://cafe.naver.com/slmentor22 <br>
+
+                https://www.youtube.com/c/%EC%8A%88%EC%B9%B4%EC%9B%94%EB%93%9C <br>
+                https://www.youtube.com/c/KoreaInstituteofDesignPromotion <br>
+                https://www.youtube.com/c/ScienceDream <br>
+                https://www.youtube.com/c/%EB%B9%B5%ED%98%95%EC%9D%98%EA%B0%9C%EB%B0%9C%EB%8F%84%EC%83%81%EA%B5%AD <br>
+                https://www.youtube.com/c/%EC%A1%B0%EC%BD%94%EB%94%A9JoCoding
+            </div>
+        </div>
+
+        
+        
+    </body>
+</html>
